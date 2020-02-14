@@ -1,0 +1,40 @@
+OPTIGA Trust M Software framework
+#################################
+
+Origin:
+   https://github.com/Infineon/optiga-trust-m
+
+Status:
+   8618e922d48f08f7e3fb11c854b1d0e22021fdb1
+
+Import instructions:
+   When we import optiga-trust-m we remove the examples/ dir and not nedded pal/ subdirs to reduce
+   the amount of code imported.
+
+Purpose:
+   Framework that allows to interact with Infineon's OPTIGA Trust M secure elements.
+
+Description:
+This repository contains a target-agnostic Software Framework to make use of the OPTIGA™ Trust M security chip. 
+The OPTIGA™ Trust M is a security solution based on a secure microcontroller.
+Each device is shipped with a unique elliptic-curve keypair and a corresponding X.509 certificate.
+
+This framework provides the core library to communicate and utilize the OPTIGA™ Trust M.
+
+Dependencies:
+
+URL:
+   https://github.com/Infineon/optiga-trust-m
+
+commit:
+   8618e922d48f08f7e3fb11c854b1d0e22021fdb1
+   
+Maintained-by:
+   External
+
+License:
+   MIT License
+
+License Link:
+   https://github.com/Infineon/optiga-trust-m/blob/master/LICENSE
+
